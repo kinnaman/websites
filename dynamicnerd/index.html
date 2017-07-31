@@ -1,7 +1,57 @@
 <!DOCTYPE html>
 <html>
-   <body>
-      <h1>Hello World</h1>
-      <p>Testing for future.</p>
-   </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                color: purple;
+                background-color: white;
+            }
+            h1 {
+                background-color: purple;
+                color: white;
+                text-align: center;
+                line-height: 3em;
+            }
+            h6{
+                color:black;
+            }
+            #sidebar{
+                height:45em;
+                float:left;
+                font-style:normal;
+            }
+            #main{
+                float:inline;
+            }
+            #em{
+                font-weight:bolder;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Dynamic Nerd's Blog</h1>
+    
+        <div id="sidebar">
+        <h3>Contents</h3>
+        <ul  id="contents">
+            <li><a href="#gentoo">Install Gentoo</a></li>
+            <li><a href="#vim">Vim</a></li>
+        </ul>
+        </div>
+        
+        <div id="main">
+        <h2 id="gentoo">Install Gentoo</h2>
+        <h6>March 4, 2015</h6>
+        
+        <p>INSERT RANDOM TEXT HERE</p>
+        <h2 id="vim">Vim </h2>
+        <h6>March 4, 2015</h6>
+        
+        <p>I <em>love</em> Vim.It is a good text editor.</p>
+        </div>
+    </body>
 </html>
